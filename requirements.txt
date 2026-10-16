@@ -1,0 +1,4 @@
+# Runtime dependencies for the reconciliation core.
+# Deliberately minimal: no LLM, no vLLM, no Evolus SDK until verified
+# (docs/RECONNAISSANCE.md sections 4-6).
+pydantic>=2.7,<3
